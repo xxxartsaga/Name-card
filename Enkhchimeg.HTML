@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Digital Card</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: url('background.jpg') no-repeat center center/cover;
+            margin: 0;
+            padding: 20px;
+        }
+        .card {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            border: 2px solid #ff0000;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            position: relative;
+            max-width: 90%;
+            width: 350px;
+        }
+        .card img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+        .card h2 {
+            margin: 10px 0;
+            color: #000000;
+        }
+        .card p {
+            color: #3b3b3b;
+            font-weight: bold;
+        }
+        .social a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #d32f2f;
+            font-weight: bold;
+        }
+        .line {
+            width: 80%;
+            height: 2px;
+            background-color: #d32f2f;
+            margin: 15px auto;
+        }
+        @media (max-width: 600px) {
+            .card {
+                width: 100%;
+                max-width: 90%;
+                padding: 15px;
+            }
+            .card img {
+                width: 80px;
+                height: 80px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <img src="profile.jpg" alt="Profile Picture">
+        <h2>Б.Энхчимэг</h2>
+        <p>Абсолют сургалтын төвийн "Гүйцэтгэх захирал"</p>
+        <div class="line"></div>
+        <p>📧 enkhchimeg@absolute.mn</p>
+        <p>📞 +976 9900-8158</p>
+        <div class="social">
+            <a href="https://www.facebook.com/enkhchimeg.baasandorj" target="_blank">Facebook</a>
+            <a href="https://www.linkedin.com/in/enkhchimeg-baasandorj-0254a01b3/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank">Linkedin</a>
+        </div>
+    </div>
+</body>
+</html>
